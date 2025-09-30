@@ -1,0 +1,32 @@
+{
+    "name": "geoffroy-pradier/php-trader",
+    "description": "PHP implementation of technical indicators for trading. Alternative to the Trader extension.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "geoffroy-pradier",
+            "email": "pradiergeoffroy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GeoffroyPradier\\PhpTrader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GeoffroyPradier\\Trader\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests --colors=always"
+    }
+}

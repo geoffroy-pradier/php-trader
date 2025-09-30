@@ -7,7 +7,7 @@ A pure PHP implementation of technical indicators for trading, including the Rel
 Install the package via Composer:
 
 ```bash
-composer require geoffroy-pradier/trader
+composer require geoffroy-pradier/php-trader
 ```
 
 ## Requirements
